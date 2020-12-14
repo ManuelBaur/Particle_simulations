@@ -94,10 +94,8 @@ def initialize_particle_pos(BoxDim, nPart, dir_pos_data,dir_posCon_data,dir_vel_
 	yPos0 = np.random.rand(nPart) * np.float(BoxDim[1]) ### initial y-Position
 	zPos0 = np.random.rand(nPart) * np.float(BoxDim[2]) ### initial z-Position
 
-	# phi0 = 2. * np.pi * np.random.rand(nPart) ### azimuthal angle of initial particle displacement
-	# theta0 = np.pi * np.random.rand(nPart) ### polar angle
-	phi0 = 2. * np.pi * np.ones(nPart) ### azimuthal angle of initial particle displacement
-	theta0 = np.pi * np.ones(nPart) ### polar angle
+	phi0 = np.pi/2. * np.ones(nPart) ### azimuthal angle of initial particle displacement
+	theta0 = np.pi/2. * np.ones(nPart) ### polar angle
 
 	###### save initial particle positions
 	nt = 0 ## time step == 0

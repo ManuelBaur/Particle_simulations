@@ -32,10 +32,3 @@ for Brownian motion this is Gaussian distribution.
 
 
 
-############### PUSH
-git push --set-upstream https://github.com/ManuelBaur/Particle_simulations.git master
-
-
-############## PULL
-git pull https://github.com/ManuelBaur/Particle_simulations.git
-
